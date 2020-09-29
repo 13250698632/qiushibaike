@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qiushibaike-passport" />
+        <module name="qiushibaike-user" />
+        <module name="qiushibaike-api" />
+        <module name="qiushibaike-payment" />
+        <module name="qiushibaike-common-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="qiushibaike-api" target="8" />
+      <module name="qiushibaike-common-util" target="1.8" />
+      <module name="qiushibaike-parent" target="1.8" />
+      <module name="qiushibaike-passport" target="1.8" />
+      <module name="qiushibaike-payment" target="1.8" />
+      <module name="qiushibaike-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="qiushibaike-api" options="" />
+      <module name="qiushibaike-common-util" options="-parameters" />
+      <module name="qiushibaike-passport" options="-parameters" />
+      <module name="qiushibaike-payment" options="-parameters" />
+      <module name="qiushibaike-user" options="-parameters" />
+    </option>
+  </component>
+</project>

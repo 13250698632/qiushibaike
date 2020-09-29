@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/qiushibaike-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiushibaike-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiushibaike-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiushibaike-passport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiushibaike-payment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qiushibaike-user" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -20,7 +20,6 @@ import lombok.experimental.Accessors;
  * @author testjava
  * @since 2020-09-28
  */
-@Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @ApiModel(value="PpsTopic对象", description="")
@@ -61,5 +60,87 @@ public class PpsTopic implements Serializable {
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date gmtModified;
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getTitleImg() {
+        return titleImg;
+    }
+
+    public void setTitleImg(String titleImg) {
+        this.titleImg = titleImg;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public Integer getDynamicCount() {
+        return dynamicCount;
+    }
+
+    public void setDynamicCount(Integer dynamicCount) {
+        this.dynamicCount = dynamicCount;
+    }
+
+    public Integer getDayCount() {
+        return dayCount;
+    }
+
+    public void setDayCount(Integer dayCount) {
+        this.dayCount = dayCount;
+    }
+
+    public Integer getIsDeleted() {
+        return isDeleted;
+    }
+
+    public void setIsDeleted(Integer isDeleted) {
+        this.isDeleted = isDeleted;
+    }
+
+    public Date getGmtCreate() {
+        return gmtCreate;
+    }
+
+    public void setGmtCreate(Date gmtCreate) {
+        this.gmtCreate = gmtCreate;
+    }
+
+    public Date getGmtModified() {
+        return gmtModified;
+    }
+
+    public void setGmtModified(Date gmtModified) {
+        this.gmtModified = gmtModified;
+    }
 }

@@ -20,7 +20,6 @@ import lombok.experimental.Accessors;
  * @author testjava
  * @since 2020-09-28
  */
-@Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @ApiModel(value="NosFeedbackCatalog2对象", description="")
@@ -49,5 +48,55 @@ public class NosFeedbackCatalog2 implements Serializable {
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date gmtModified;
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getFeedbackCatalog1Id() {
+        return feedbackCatalog1Id;
+    }
+
+    public void setFeedbackCatalog1Id(String feedbackCatalog1Id) {
+        this.feedbackCatalog1Id = feedbackCatalog1Id;
+    }
+
+    public Integer getIsDeleted() {
+        return isDeleted;
+    }
+
+    public void setIsDeleted(Integer isDeleted) {
+        this.isDeleted = isDeleted;
+    }
+
+    public Date getGmtCreate() {
+        return gmtCreate;
+    }
+
+    public void setGmtCreate(Date gmtCreate) {
+        this.gmtCreate = gmtCreate;
+    }
+
+    public Date getGmtModified() {
+        return gmtModified;
+    }
+
+    public void setGmtModified(Date gmtModified) {
+        this.gmtModified = gmtModified;
+    }
 }

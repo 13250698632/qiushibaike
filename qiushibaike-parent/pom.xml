@@ -32,10 +32,28 @@
         <commons-lang3.version>3.7</commons-lang3.version>
         <mysql.version>8.0.17</mysql.version>
         <hutool.version>5.4.3</hutool.version>
+        <cloud-alibaba.version>0.2.2.RELEASE</cloud-alibaba.version>
+        <jodatime.version>2.10.1</jodatime.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!--Spring Cloud-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!--mybatis-plus 持久层-->
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -101,6 +119,13 @@
                 <groupId>commons-dbutils</groupId>
                 <artifactId>commons-dbutils</artifactId>
                 <version>${commons-dbutils.version}</version>
+            </dependency>
+
+            <!--日期时间工具-->
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>${jodatime.version}</version>
             </dependency>
 
             <!--字符串的处理-->

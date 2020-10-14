@@ -20,7 +20,6 @@ import lombok.experimental.Accessors;
  * @author testjava
  * @since 2020-09-28
  */
-@Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @ApiModel(value="NosFeedback对象", description="")
@@ -53,4 +52,63 @@ public class NosFeedback implements Serializable {
     private Date gmtModified;
 
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getFeedbackCatalog2Id() {
+        return feedbackCatalog2Id;
+    }
+
+    public void setFeedbackCatalog2Id(String feedbackCatalog2Id) {
+        this.feedbackCatalog2Id = feedbackCatalog2Id;
+    }
+
+    public String getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
+
+    public String getFeedbackContent() {
+        return feedbackContent;
+    }
+
+    public void setFeedbackContent(String feedbackContent) {
+        this.feedbackContent = feedbackContent;
+    }
+
+    public Integer getIsDeleted() {
+        return isDeleted;
+    }
+
+    public void setIsDeleted(Integer isDeleted) {
+        this.isDeleted = isDeleted;
+    }
+
+    public Date getGmtCreate() {
+        return gmtCreate;
+    }
+
+    public void setGmtCreate(Date gmtCreate) {
+        this.gmtCreate = gmtCreate;
+    }
+
+    public Date getGmtModified() {
+        return gmtModified;
+    }
+
+    public void setGmtModified(Date gmtModified) {
+        this.gmtModified = gmtModified;
+    }
 }

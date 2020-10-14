@@ -5,10 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/qiushibaike.iml" filepath="$PROJECT_DIR$/.idea/qiushibaike.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiushibaike-api/qiushibaike-api.iml" filepath="$PROJECT_DIR$/qiushibaike-api/qiushibaike-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiushibaike-common-util/qiushibaike-common-util.iml" filepath="$PROJECT_DIR$/qiushibaike-common-util/qiushibaike-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiushibaike-oss/qiushibaike-oss.iml" filepath="$PROJECT_DIR$/qiushibaike-oss/qiushibaike-oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiushibaike-parent/qiushibaike-parent.iml" filepath="$PROJECT_DIR$/qiushibaike-parent/qiushibaike-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiushibaike-passport/qiushibaike-passport.iml" filepath="$PROJECT_DIR$/qiushibaike-passport/qiushibaike-passport.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiushibaike-payment/qiushibaike-payment.iml" filepath="$PROJECT_DIR$/qiushibaike-payment/qiushibaike-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiushibaike-release/qiushibaike-release.iml" filepath="$PROJECT_DIR$/qiushibaike-release/qiushibaike-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/qiushibaike-user/qiushibaike-user.iml" filepath="$PROJECT_DIR$/qiushibaike-user/qiushibaike-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiushibaike-websocket/qiushibaike-websocket.iml" filepath="$PROJECT_DIR$/qiushibaike-websocket/qiushibaike-websocket.iml" />
     </modules>
   </component>
 </project>
